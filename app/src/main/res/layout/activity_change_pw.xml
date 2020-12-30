@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.kersitery.taxi.taxi.ChangePWActivity">
+    <LinearLayout
+        android:id="@+id/back"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/back_icon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="修改密码"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+    <EditText
+        android:background="@drawable/style_edit"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp" 
+        android:hint="请输入旧密码"
+        android:id="@+id/et_old"/>
+    <EditText
+        android:background="@drawable/style_edit"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="请输入新密码"
+        android:id="@+id/et_new"/>
+    <EditText
+        android:background="@drawable/style_edit"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="请再次输入新密码"
+        android:id="@+id/et_again"/>
+    
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/style_login"
+        android:id="@+id/btn_modify"
+        android:text="确 定"
+        android:textColor="#ebf1f1"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

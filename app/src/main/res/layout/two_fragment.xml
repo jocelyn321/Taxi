@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="任务中心"
+            android:textSize="24dp"
+            android:background="@color/blue"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:text="清空任务"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户：admin"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-11-11 9:00:00"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户：admin"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-11-11 9:00:00"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户：admin"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-11-11 9:00:00"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未完成"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"/>
+
+
+</LinearLayout>

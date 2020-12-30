@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="控制台"
+        android:textSize="24dp"
+        android:background="@color/blue"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:gravity="center"/>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+       <TextView
+           android:id="@+id/see_s"
+           android:layout_centerInParent="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="请在以下站点选择停靠站"
+           android:textSize="23dp"/>
+   </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="区域列表"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/lv_station"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>
